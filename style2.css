@@ -1,0 +1,183 @@
+/*Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 	%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}d82727
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Some extra resetting to make stuff play nice*/
+* { 
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+}
+
+/*Begin main styles*/
+::selection{
+	background-color: #911404;
+}
+
+.appleLinks,.appleLinks a{
+	color:#4c080c;
+}
+html{
+	background-color: #d62828;
+}
+body{
+	margin: 0 auto;
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	color: #f9dad7;
+}
+a{
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+header{
+	text-align: center;
+	padding: 35px 0 65px 0;
+}
+
+h1{
+	color: #ffffff;
+	/*text-transform: uppercase;*/
+	font-family: "ff-cocon-web-pro",sans-serif;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 1.8em;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	padding-bottom: 15px;
+}
+
+h2{
+	color: #fff;
+	font-family: "ff-cocon-web-pro",sans-serif;
+	font-size: 1.3em;
+}
+#number{
+	font-size: 30px;
+	padding-top: 15px;
+	color: #4c080c;
+}
+#number a{
+	color:#4c080c;
+}
+#address{
+	text-align: center;
+	color: #532923;
+	text-decoration: none;
+	font-size: 18px;
+	color: #6a1515;
+}
+#address:hover{
+	color: #ffffff;
+}
+
+section p{
+	max-width: 600px;
+	margin: 0 auto;
+	line-height: 145%;
+	padding: 15px;
+}
+article{
+	text-align: center;
+	clear: both;
+	font-size: 18px;
+	padding: 40px 25px;
+}
+
+#one{
+	background-color: #c02626;
+	font-size: 0.8em;
+}
+article .icon{
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 25px;
+}
+#menu{
+	background-color: #a31818;
+}
+#menu a{
+	color:#F9DAD7;
+	text-decoration: none;
+}
+#menu a:hover{
+	color:#ED5A4E;
+}
+#menuButton{
+	background-color: #580300;
+	border-radius: 3px;
+	padding: 10px;
+}
+#menuButton:hover{
+	background-color: #861814;	
+}
+#three{
+	background-color: #FED2CC;
+}
+
+#three .icon{
+	border-radius: 3px;
+	width: 250px;
+}
+#last{
+	background-color: #861814;
+	color: #f0716c;
+	/*height: 50px;*/
+}
+#footer{
+	background-color: #580300;
+	font-size: 0.6em;
+	padding: 10px;
+}
+
+#footer, #footer a{
+	color: rgba(255,255,255,0.2);
+}
+#footer a:hover{
+		color: rgba(255,255,255,0.6);
+}
+
